@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Accounts>
+	<Account>
+		<UserId>12345</UserId>
+		<Balances>
+			<Balance>
+				<Currency>USD</Currency>
+				<BalanceAmount>1000</BalanceAmount>
+			</Balance>
+			<Balance>
+				<Currency>EUR</Currency>
+				<BalanceAmount>500</BalanceAmount>
+			</Balance>
+		</Balances>
+	</Account>
+	<Account>
+		<UserId>12346</UserId>
+		<Balances>
+			<Balance>
+				<Currency>USD</Currency>
+				<BalanceAmount>2000</BalanceAmount>
+			</Balance>
+		</Balances>
+	</Account>
+</Accounts>

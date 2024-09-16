@@ -1,0 +1,54 @@
+[
+  {
+    "UserId": "12345",
+    "Balances": [
+      {
+        "Currency": "USD",
+        "BalanceAmount": 1000,
+        "Transactions": [
+          {
+            "UserId": "12345",
+            "Amount": 100,
+            "TransactionType": "Deposit",
+            "ExternalTransactionId": "txn001"
+          },
+          {
+            "UserId": "12345",
+            "Amount": 50,
+            "TransactionType": "Deposit",
+            "ExternalTransactionId": "txn002"
+          }
+        ]
+      },
+      {
+        "Currency": "EUR",
+        "BalanceAmount": 500,
+        "Transactions": [
+          {
+            "UserId": "12345",
+            "Amount": 200,
+            "TransactionType": "Deposit",
+            "ExternalTransactionId": "txn003"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UserId": "12346",
+    "Balances": [
+      {
+        "Currency": "USD",
+        "BalanceAmount": 2000,
+        "Transactions": [
+          {
+            "UserId": "12346",
+            "Amount": 300,
+            "TransactionType": "Withdraw",
+            "ExternalTransactionId": "txn004"
+          }
+        ]
+      }
+    ]
+  }
+]
